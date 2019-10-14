@@ -52,9 +52,12 @@ header nav
 /*=========================MAIN=======================*/
 main
 {
-	height:700px;
+	height:1200px;
 	width:80%;
 	margin:auto;
+	background-color:rgba(255,255,255,0.8);
+	margin-top:30px;
+	margin-bottom:30px;
 }
 
 
