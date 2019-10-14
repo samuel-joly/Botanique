@@ -2,7 +2,6 @@ body
 {
 	margin:0px;
 	padding:0px;
-	background-image:url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.utahpeoplespost.com%2Fwp-content%2Fuploads%2F2014%2F07%2FWheat7.jpg&f=1&nofb=1");
 	background-size:cover;
 }
 
@@ -55,10 +54,10 @@ main
 	height:1200px;
 	width:80%;
 	margin:auto;
-	background-color:rgba(255,255,255,0.8);
 	margin-top:30px;
 	margin-bottom:30px;
 }
+
 
 .planteImgList
 {
