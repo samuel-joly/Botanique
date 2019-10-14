@@ -1,0 +1,108 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	background-image:url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.utahpeoplespost.com%2Fwp-content%2Fuploads%2F2014%2F07%2FWheat7.jpg&f=1&nofb=1");
+	background-size:cover;
+}
+
+
+/*============================HEADER==========================*/
+
+header nav
+{
+	display:flex;
+	flex-direction:row;
+	height:75px;
+	background-color:lightgreen;	
+}
+
+.headerImg
+{
+	margin-left:10px;
+	margin-top:10px;
+	width:70px;
+}
+
+.imgAcceuil{
+
+	width:100%;
+	
+}
+
+
+
+
+.navUl
+{
+	display:flex;
+	flex-direction:row;
+	font-size:1,3em;
+	list-style:none;
+}
+
+.navUl li a
+{
+	text-decoration:none;
+	color:white;
+	font-size:1.5em;
+	margin:10px;
+	position:relative;
+	top:7px;
+}
+
+.navUl li a:hover
+{
+	color:green;
+	border-bottom:2px solid white;
+	transition:all 1s ease;
+}
+
+/*=========================MAIN=======================*/
+main
+{
+	height:700px;
+	width:80%;
+	margin:auto;
+	background-color:rgba(255,255,255,0.8);
+}
+
+
+/*=========================FOOTER======================*/
+footer
+{
+	background-color:lightgreen;
+	display:flex;
+	flex-direction:column;
+	height:150px;
+}
+
+#footerUl 
+{
+	width:70%;
+	margin:auto;
+	justify-content:space-around;
+
+}
+
+#footerUl>li
+{
+	margin:auto;
+	text-align:center;
+	padding-left:40px;
+	padding-right:40px;
+	margin-top:20px;
+}
+
+.footerTopContent
+{
+	
+}
+
+.footerSubContent
+{
+	list-style:none;
+	font-size:0.85em;
+	position:relative;
+	right:20px;
+}
