@@ -93,12 +93,14 @@ main h1, main p
 .planteImg div p
 {
 	text-align:center;
+	margin-bottom:20px;
+	
 }
 
 .planteImg img
 {
 	width:420px;
-	height:250px;
+	height:300px;
 	border-radius:5px;
 	margin-top:20px;
 }
@@ -106,6 +108,7 @@ main h1, main p
 #plantePanorama
 {
 	width:900px;
+	height:300px;
 }
 /*=========================FOOTER======================*/
 footer
