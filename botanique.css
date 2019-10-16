@@ -7,6 +7,8 @@ body
 }
 
 
+}
+
 /*============================HEADER==========================*/
 
 header nav
@@ -149,19 +151,105 @@ main h1, main p
 {
 	width:900px;
 	height:300px;
+
+}
+
+main h1, main p
+{
+	width:80%;
+	margin:auto;
+	text-align:justify;	
 }
 
 
+.fleurs{
+	width:210px;
+	float:left;
+}
+
+.flowerLink
+{
+	margin:auto;
+	margin-top:30px;
+	margin-bottom:15px;
+}
+
+.fleursDescription
+{
+	display:flex;
+	flex-direction:column;
+}
+
+.flowerBox
+{
+	display:flex;
+	flex-direction:row;
+	margin:15px;
+}
+
+.flowerBox a
+{
+	text-decoration:none;
+	color:blue;
+}
 
 
+.link
+{
+	border-bottom:2px solid lightgreen;
+	width:630px;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:10px;
+}
 
+.planteImg
+{
+	width:99%;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
 
+.planteImg div p
+{
+	text-align:center;
+	margin-bottom:20px;
+	width:420px;
+}
 
+.descriptionPlante
+{
+	font-size:0.8em;
+	color:grey;
+}
 
+.planteImg img
+{
+	width:420px;
+	height:250px;
+	border-radius:5px;
+	margin-top:20px;
+}
 
+#plantePanorama
+{
+	width:900px;
+	height:300px;
+}
 
+#presentationImage
+{
+	width:400px;
+	height:auto;
+	margin-top:40px;
+	outline: 4px dotted #C59C4F;
+}
 
-
+.bottomLogo{
+	align:center;
+	width:140px;
+}
 
 /*=========================FOOTER======================*/
 footer
@@ -191,7 +279,7 @@ footer
 .footerSubContent
 {
 	list-style:none;
-	font-size:0.85em;
+	font-size:0.60em;
 	position:relative;
 	right:20px;
 }
