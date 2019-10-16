@@ -93,7 +93,14 @@ main h1, main p
 .planteImg div p
 {
 	text-align:center;
-	margin-bottom:20px;	
+	margin-bottom:20px;
+	width:420px;
+}
+
+.descriptionPlante
+{
+	font-size:0.8em;
+	color:grey;
 }
 
 .planteImg img
