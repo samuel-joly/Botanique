@@ -163,6 +163,11 @@ main h1, main p
 	outline: 4px dotted #C59C4F;
 }
 
+.bottomLogo
+{
+	width:150px;
+}
+
 /*=========================FOOTER======================*/
 footer
 {
